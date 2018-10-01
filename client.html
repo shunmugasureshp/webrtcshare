@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/client.css" />
+		<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+		<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+		<script src="js/client.js"></script>
+		<script src="js/rtc.js"></script>
+		<script src="js/image_panel.js"></script>
+	</head>
+	<body>
+		<div class="main">
+			<canvas id="photo" width="550" height="400"></canvas>
+			<div class="btnPanel">
+				<button id="snapBtn">Snap</button>
+				<button id="sendBtn">Send</button>
+			</div>
+			<h4>Incoming Photo</h4>
+			<div id="trail"></div>
+		</div>
+	</body>
+</html>
